@@ -130,10 +130,7 @@
     border-radius: 10%;
     box-shadow: 2vw 1.5vw 1vw #3f445844;
 }
-.numero{
-    font-size: 3vw;
-}
-.fecha{
+.numero, .fecha{
     font-size: 2vw;
 }
 .portada{
