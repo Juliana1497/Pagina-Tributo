@@ -12,6 +12,18 @@
     text-align: center;
     height: 7vw;
     align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.c_diseñado{
+    display: flex;
+    align-items: center;
+}
+.diseñado{
+    font-size: 1vw;
+}
+.c_diseñado img{
+    width: 7vw;
 }
 
 /*Subtitulo*/
