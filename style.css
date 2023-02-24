@@ -2,14 +2,15 @@
     font-family: 'Aref Ruqaa Ink', serif;
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
 }
 
 /*Titulo*/
 .titulo{
-    font-size: 30px;
+    font-size: 3vw;
     background-color: #7EBDE0;
     text-align: center;
-    height: 70px;
+    height: 7vw;
     align-items: center;
 }
 
@@ -19,18 +20,19 @@
     text-align: center;
     position: relative;
     align-items: center;
+    
 }
 .orden p{
     color: white;
-    font-size: 30px;
+    font-size: 3vw;
     position: absolute;
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 .imagen_orden{
-    width: 747px;
-    height: 217px;
+    width: 74.7vw;
+    height: 21.7vw;
     margin: 0;
     padding: 0;
 }
@@ -38,136 +40,129 @@
 /*Contenedor autora, editorial, premios y reconocimientos*/
 .contenedor{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*autora*/
 .autora{
-    font-size: 20px;
+    font-size: 3vw;
     background-color: #D3F1F5;
-    border-width: 1px;
+    border-width: 0.1vw;
     border-color: black;
     border-style: solid; 
-    width: 446px;
-    height: 107px;
+    width: 80vw;
+    height: 20vw;
     display: flex;
-    margin: 15px 50px 15px 120px;
+    justify-content: center;
+    margin: 3vw;
     align-items: center;
+    border-radius: 10%;
+    box-shadow: 2vw 1.5vw 1vw #3f445844;
 }
 .imagen_autora{
-    width: 120px;
-    height: 67.5px;
-    padding: 15px 10px 15px 13px;
+    width: 25vw;
+    height: 15vw;
+    padding: 1.5vw 1vw;
 }
 .autora_boton{
-    padding-left: 40px;
-    padding-right: 50px;
+    padding: 0vw 4vw;
 }
 
 /*Editorial*/
 .editorial{
-    font-size: 20px;
+    font-size: 3vw;
     background-color: #D3F1F5;
-    border-width: 1px;
+    border-width: 0.1vw;
     border-color: black;
     border-style: solid; 
-    width: 446px;
-    height: 107px;
-    margin: 15px 50px 15px 120px;
-    text-align: center;
+    width: 80vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3vw;
     align-items: center;
-}
-.editorial_texto{
-    margin-top: 20px;
+    border-radius: 10%;
+    box-shadow: 2vw 1.5vw 1vw #3f445844;
 }
 
 /*Premios y reconocimientos*/
 .premios{
-    font-size: 23px;
+    font-size: 3vw;
     background-color: #D3F1F5;
-    border-width: 1px;
+    border-width: 0.1vw;
     border-color: black;
-    border-style: solid;
-    width: 558px;
-    height: 203px;
-    margin: 33px 133px 27px 50px;
-    text-align: center;
+    border-style: solid; 
+    width: 80vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3vw;
     align-items: center;
-}
-.premios_ganados{
-    margin-top: 50px;
+    border-radius: 10%;
+    box-shadow: 2vw 1.5vw 1vw #3f445844;
 }
 
 /*Libros*/
 .libro{
     background-color: #D3D7D8;
     display: flex;
-    width: 1096px;
-    height: 169;
-    margin: 26px 120px 26px 120px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3vw 12vw;
     text-align: center;
     align-items: center;
+    border-radius: 10%;
+    box-shadow: 2vw 1.5vw 1vw #3f445844;
 }
-
 .numero{
-    font-size: 30px;
-    margin-left: 15px;
+    font-size: 3vw;
 }
 .fecha{
-    font-size: 20px;
-    margin-left: 30px;
+    font-size: 2vw;
 }
 .portada{
-    width: 105px;
-    height: 163.8px;
-    padding-top: 5px;
-    padding-left: 40px;
-    padding-right: 20px;
+    width: 35vw;
+    height: 48vw;
+    padding-top: 0.5vw;
+    padding-left: 4vw;
+    padding-right: 2vw;
 }
 .titulo_libro{
-    font-size: 30px;
-    margin-top: 10px;
-    margin-left: 3px;
+    font-size: 3vw;
+    margin-top: 1vw;
 }
 .sinopsis{
-    font-size: 15px;
-    margin-top: 3px;
+    font-size: 1.3vw;
+    margin: 0.3vw 20vw;
 }
 .boton{
     color:white;
-    font-size: 15px;
-    border-width: 1px;
+    font-size: 3vw;
+    border-width: 0.1vw;
     border-color: black;
     border-style: solid;
     background-color: #302DBF;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0vw 2vw;
+    margin: 1vw;
+    box-shadow: 0.5vw 0.5vw 0vw #3f445844;
 }
 .fanart{
-    height: 163px;
-    padding-top: 5px;
-    padding-right: 15px;
-    padding-left: 30px;
+    width: 35vw;
+    height: 48vw;
+    padding: 1vw;
 }
-.artista{
-    width: 181px;
-    font-size: 15px;
-    margin-right: 15px;
-    
-}
-.artista3{
-    width: 181px;
-    font-size: 15px;
-    margin-right: 33px;
-}
-.artista7{
-    width: 400px;
-    font-size: 15px;
-    margin-right: 33px;
-    margin-left: 23px;
+.artista, .artista3, .artista7{
+    font-size: 1.5vw;  
+    margin-bottom: 2vw;  
 }
 .reconocimientos{
     color: #2404EA;
-    font-size: 15px;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
 }
 
 /*Ventana emergente autora*/
@@ -188,38 +183,37 @@
 }
 .popup{
     background: white;
-    width: 428px;
-    height: 532px;
+    width: 42.8vw;
+    height: 70vw;
     text-align: center;
 }
 .popup .btn-cerrar-popup{
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
     display: block;
     text-align: right;
     color: red;
 }
 .imagen_autora_popup{
-    width: 150px;
-    padding: 30px;
+    width: 16vw;
+    padding: 2vw;
 }
 .nombre_autora{
-    font-size: 30px;
-    padding-top: 50px;
+    font-size: 4vw;
+    padding-top: 5vw;
 }
 .biografia{
-    font-size: 17px;
-    padding-right: 30px;
-    padding-left: 30px;
+    font-size: 2vw;
+    padding: 0px 3vw;
 }
 .imagen_nombre_popup{
     display: flex;
 }
 .caja_popup{
     background-color: #7DB9DB;
-    width: 388px;
-    height: 487px;
-    margin: 0px 10px 20px 20px;
+    width: 38.8vw;
+    height: 65.5vw;
+    margin: 0vw 1vw 2vw 2vw;
 }
 
 /*Ventana emergente historias-cortas*/
@@ -240,45 +234,43 @@
 }
 .popup-hc{
     background: white;
-    width: 428px;
-    height: 661px;
+    width: 60vw;
+    height: 70vw;
     text-align: center;
 }
 .popup-hc .btn-cerrar-popup-hc{
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
     display: block;
     text-align: right;
     color: red;
 }
 .titulo-hc{
-    font-size: 25px;
-    height: 70px;
+    font-size: 2.5vw;
+    height: 7vw;
     background-color: #7EBDE0;
     align-items: center;
 }
 .libro-hc{
     background-color: #D3D7D8;
     display: flex;
-    width: 388px;
-    height: 99px;
-    margin: 16px 20px 16px 20px;
+    width: 55vw;
+    height: 10vw;
+    margin: 1.6vw 2vw;
     align-items:center;
 }
 .libro-hc img{
-    width: 64.5px;
-    height: 99px;
-    padding-right: 30px;
+    width: 6.45vw;
+    height: 10vw;
+    padding-right: 2vw;
 }
 .numero-hc{
-    margin-right: 15px;
-    margin-left: 15px;
+    margin: 0vw 1vw;
 }
 .titulo-libro-hc{
-    font-size: 17px;
-    margin-right: 5px;
+    font-size: 1.7vw;
+    margin-right: 0.5vw;
 }
 .sinopsis-hc{
-    font-size: 15px;
-    margin-right: 5px;
+    font-size: 1.5vw;
 }
